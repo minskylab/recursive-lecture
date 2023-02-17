@@ -1,7 +1,13 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title": "Introduction",
+    "type": "page",
+    "display": "hidden"
+  },
+  "docs": {
+    "title": "Docs",
+    "type": "page"
+  },
   "about": {
     "title": "About",
     "type": "page"
