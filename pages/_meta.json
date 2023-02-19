@@ -4,8 +4,9 @@
     "type": "page",
     "display": "hidden"
   },
-  "definitions": {
-    "title": "Definitions"
+  "lecture": {
+    "title": "Lecture",
+    "type": "page"
   },
   "about": {
     "title": "About",
