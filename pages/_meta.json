@@ -4,18 +4,17 @@
     "type": "page",
     "display": "hidden"
   },
-  "docs": {
-    "title": "Docs",
-    "type": "page"
+  "definitions": {
+    "title": "Definitions"
   },
   "about": {
     "title": "About",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Minsky ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://minsky.cc",
     "newWindow": true
   }
 }
