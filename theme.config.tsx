@@ -49,7 +49,7 @@ const config: DocsThemeConfig = {
     link: "https://discord.com",
   },
   docsRepositoryBase:
-    "https://github.com/minskylab/recursive-lecture/tree/main",
+    "https://github.com/minskylab/frecursive-lecture/tree/main",
   footer: {
     text: "Recursive Lecture - Minsky",
   },
@@ -57,6 +57,14 @@ const config: DocsThemeConfig = {
   useNextSeoProps: () => ({
     titleTemplate: "%s – Recursive Lecture",
   }),
+  head: () => {
+    return (
+      <>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </>
+    );
+  },
 };
 
 export default config;
